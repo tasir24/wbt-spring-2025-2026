@@ -1,0 +1,121 @@
+/* Navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ebebeb;
+}
+
+
+.nav-left ul {
+    padding-left: 8%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.nav-logo {
+    text-align: center;
+}
+
+.nav-logo img {
+    height: 50px;
+}
+
+.nav-right {
+    padding-right: 8%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nav-right img {
+    height: 20px;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*Text Styling*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Paragraphs and general text */
+p, li, td, th {
+    font-family: "Roboto", sans-serif;
+    line-height: 22px;
+}
+
+
+/* Index */
+section {
+    border: 3px solid #6a0dad;
+    padding: 20px;           
+    margin: 30px auto;           
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* Project */
+.project-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.project-gallery img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.project-gallery figure{
+    margin: 0;
+    text-align: center;
+}
+
+.project-gallery figcaption{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.project-gallery img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*Contact page button*/
+.Button1{
+    background-color: #000;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #000;
+    transition: 0.2s;
+}
+
+.Button1:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s;
+}
